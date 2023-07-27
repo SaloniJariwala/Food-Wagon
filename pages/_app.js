@@ -1,11 +1,11 @@
 import "@/assets/css/style.css";
-import { Open_Sans } from "next/font/google";
+import { Source_Sans_3 } from "next/font/google";
 
-const OpenSans = Open_Sans({ subsets: ["latin"], weight: ["300", "400", "500", "700"] });
+const SourceSans = Source_Sans_3({ subsets: ["latin"], weight: ["300", "400", "500", "700"] });
 
 export default function App({ Component, pageProps }) {
     return (
-        <main className={OpenSans.className}>
+        <main className={SourceSans.className}>
             <Component {...pageProps} />
         </main>
     );
