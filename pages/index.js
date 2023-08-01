@@ -1,6 +1,9 @@
 import Head from "next/head";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Deal from "@/components/Deal";
+import HowDoesWork from "@/components/HowDoesWork";
+import PopularItemSlider from "@/components/PopularItemSlider";
 
 export default function Home() {
     return (
@@ -13,6 +16,9 @@ export default function Home() {
             </Head>
             <Header />
             <Hero />
+            <Deal />
+            <HowDoesWork />
+            <PopularItemSlider />
         </>
     );
 }
