@@ -40,4 +40,11 @@ export const PopularItemsData = [
         price: "$2.79",
         image: Soup,
     },
+    {
+        id: 6,
+        title: "Fried Rice",
+        location: "Rice Arena",
+        price: "$5.88",
+        image: Dancake,
+    },
 ];

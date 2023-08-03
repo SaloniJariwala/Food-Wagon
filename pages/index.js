@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Deal from "@/components/Deal";
 import HowDoesWork from "@/components/HowDoesWork";
 import PopularItemSlider from "@/components/PopularItemSlider";
+import FeaturedRestaurants from "@/components/FeaturedRestaurants";
 
 export default function Home() {
     return (
@@ -19,6 +20,7 @@ export default function Home() {
             <Deal />
             <HowDoesWork />
             <PopularItemSlider />
+            <FeaturedRestaurants />
         </>
     );
 }

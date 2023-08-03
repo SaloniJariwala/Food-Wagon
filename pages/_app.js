@@ -1,3 +1,5 @@
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "@/assets/css/style.css";
 import { Source_Sans_3 } from "next/font/google";
 
