@@ -5,6 +5,8 @@ import Deal from "@/components/Deal";
 import HowDoesWork from "@/components/HowDoesWork";
 import PopularItemSlider from "@/components/PopularItemSlider";
 import FeaturedRestaurants from "@/components/FeaturedRestaurants";
+import SearchByFood from "@/components/SearchByFood";
+import MobileSection from "@/components/MobileSection";
 
 export default function Home() {
     return (
@@ -21,6 +23,8 @@ export default function Home() {
             <HowDoesWork />
             <PopularItemSlider />
             <FeaturedRestaurants />
+            <SearchByFood />
+            <MobileSection />
         </>
     );
 }
